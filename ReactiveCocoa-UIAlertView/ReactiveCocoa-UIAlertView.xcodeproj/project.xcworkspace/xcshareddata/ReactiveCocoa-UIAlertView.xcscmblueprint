@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8F2B5C426D0E0C1BD2E344DE9FE861603AC9B95F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "88EFCEAC42A9049BBFE200767CC7F994AC461D4A" : 9223372036854775807,
+    "8F2B5C426D0E0C1BD2E344DE9FE861603AC9B95F" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3FE5A636-8E2E-4EBD-BFD0-3369EDFE2BBB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "88EFCEAC42A9049BBFE200767CC7F994AC461D4A" : "",
+    "8F2B5C426D0E0C1BD2E344DE9FE861603AC9B95F" : "ReactiveCocoa-UIAlertView\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ReactiveCocoa-UIAlertView",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ReactiveCocoa-UIAlertView\/ReactiveCocoa-UIAlertView.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.coding.net\/NewDream\/fengdu.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "88EFCEAC42A9049BBFE200767CC7F994AC461D4A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/DeveloperErenLiu\/ReactiveCocoa-UIAlertView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8F2B5C426D0E0C1BD2E344DE9FE861603AC9B95F"
+    }
+  ]
+}

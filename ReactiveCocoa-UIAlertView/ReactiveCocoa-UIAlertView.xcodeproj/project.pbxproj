@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33B4471EECE99DF98D195905 /* libPods-ReactiveCocoa-UIAlertView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B8BBCAD34A3A01D54A4F4C1 /* libPods-ReactiveCocoa-UIAlertView.a */; };
+		7913D60B1DDD63AC0003CCF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7913D60A1DDD63AC0003CCF7 /* main.m */; };
+		7913D60E1DDD63AC0003CCF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7913D60D1DDD63AC0003CCF7 /* AppDelegate.m */; };
+		7913D6111DDD63AC0003CCF7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7913D6101DDD63AC0003CCF7 /* ViewController.m */; };
+		7913D6141DDD63AC0003CCF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7913D6121DDD63AC0003CCF7 /* Main.storyboard */; };
+		7913D6161DDD63AC0003CCF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7913D6151DDD63AC0003CCF7 /* Assets.xcassets */; };
+		7913D6191DDD63AC0003CCF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7913D6171DDD63AC0003CCF7 /* LaunchScreen.storyboard */; };
+		7913D6231DDD73D70003CCF7 /* UIAlertView+SignalCallback.m in Sources */ = {isa = PBXBuildFile; fileRef = 7913D6221DDD73D70003CCF7 /* UIAlertView+SignalCallback.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B8BBCAD34A3A01D54A4F4C1 /* libPods-ReactiveCocoa-UIAlertView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactiveCocoa-UIAlertView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		368761741BFD5A36AD55EB7E /* Pods-ReactiveCocoa-UIAlertView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveCocoa-UIAlertView.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveCocoa-UIAlertView/Pods-ReactiveCocoa-UIAlertView.release.xcconfig"; sourceTree = "<group>"; };
+		7913D6061DDD63AC0003CCF7 /* ReactiveCocoa-UIAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ReactiveCocoa-UIAlertView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7913D60A1DDD63AC0003CCF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7913D60C1DDD63AC0003CCF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7913D60D1DDD63AC0003CCF7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7913D60F1DDD63AC0003CCF7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7913D6101DDD63AC0003CCF7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7913D6131DDD63AC0003CCF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7913D6151DDD63AC0003CCF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7913D6181DDD63AC0003CCF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7913D61A1DDD63AC0003CCF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7913D6211DDD73D70003CCF7 /* UIAlertView+SignalCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+SignalCallback.h"; sourceTree = "<group>"; };
+		7913D6221DDD73D70003CCF7 /* UIAlertView+SignalCallback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+SignalCallback.m"; sourceTree = "<group>"; };
+		DA660E74B36928C53D2B6E89 /* Pods-ReactiveCocoa-UIAlertView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveCocoa-UIAlertView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveCocoa-UIAlertView/Pods-ReactiveCocoa-UIAlertView.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7913D6031DDD63AC0003CCF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B4471EECE99DF98D195905 /* libPods-ReactiveCocoa-UIAlertView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7913D5FD1DDD63AC0003CCF7 = {
+			isa = PBXGroup;
+			children = (
+				7913D6081DDD63AC0003CCF7 /* ReactiveCocoa-UIAlertView */,
+				7913D6071DDD63AC0003CCF7 /* Products */,
+				B1A919067BD0B3A89949EDC9 /* Pods */,
+				B16D1A0676183710563E8417 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7913D6071DDD63AC0003CCF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7913D6061DDD63AC0003CCF7 /* ReactiveCocoa-UIAlertView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7913D6081DDD63AC0003CCF7 /* ReactiveCocoa-UIAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				7913D6201DDD73D70003CCF7 /* UIAlertView+SignalCallback */,
+				7913D60C1DDD63AC0003CCF7 /* AppDelegate.h */,
+				7913D60D1DDD63AC0003CCF7 /* AppDelegate.m */,
+				7913D60F1DDD63AC0003CCF7 /* ViewController.h */,
+				7913D6101DDD63AC0003CCF7 /* ViewController.m */,
+				7913D6121DDD63AC0003CCF7 /* Main.storyboard */,
+				7913D6151DDD63AC0003CCF7 /* Assets.xcassets */,
+				7913D6171DDD63AC0003CCF7 /* LaunchScreen.storyboard */,
+				7913D61A1DDD63AC0003CCF7 /* Info.plist */,
+				7913D6091DDD63AC0003CCF7 /* Supporting Files */,
+			);
+			path = "ReactiveCocoa-UIAlertView";
+			sourceTree = "<group>";
+		};
+		7913D6091DDD63AC0003CCF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7913D60A1DDD63AC0003CCF7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7913D6201DDD73D70003CCF7 /* UIAlertView+SignalCallback */ = {
+			isa = PBXGroup;
+			children = (
+				7913D6211DDD73D70003CCF7 /* UIAlertView+SignalCallback.h */,
+				7913D6221DDD73D70003CCF7 /* UIAlertView+SignalCallback.m */,
+			);
+			path = "UIAlertView+SignalCallback";
+			sourceTree = "<group>";
+		};
+		B16D1A0676183710563E8417 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B8BBCAD34A3A01D54A4F4C1 /* libPods-ReactiveCocoa-UIAlertView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1A919067BD0B3A89949EDC9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA660E74B36928C53D2B6E89 /* Pods-ReactiveCocoa-UIAlertView.debug.xcconfig */,
+				368761741BFD5A36AD55EB7E /* Pods-ReactiveCocoa-UIAlertView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7913D6051DDD63AC0003CCF7 /* ReactiveCocoa-UIAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7913D61D1DDD63AC0003CCF7 /* Build configuration list for PBXNativeTarget "ReactiveCocoa-UIAlertView" */;
+			buildPhases = (
+				A09E0F4C411E5D3E35AEA7B3 /* [CP] Check Pods Manifest.lock */,
+				7913D6021DDD63AC0003CCF7 /* Sources */,
+				7913D6031DDD63AC0003CCF7 /* Frameworks */,
+				7913D6041DDD63AC0003CCF7 /* Resources */,
+				6C6466DD7A4462163B558D53 /* [CP] Embed Pods Frameworks */,
+				244C5CFC45730E7B290E251E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ReactiveCocoa-UIAlertView";
+			productName = "ReactiveCocoa-UIAlertView";
+			productReference = 7913D6061DDD63AC0003CCF7 /* ReactiveCocoa-UIAlertView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7913D5FE1DDD63AC0003CCF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "刘小壮";
+				TargetAttributes = {
+					7913D6051DDD63AC0003CCF7 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 2X622PBE76;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7913D6011DDD63AC0003CCF7 /* Build configuration list for PBXProject "ReactiveCocoa-UIAlertView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7913D5FD1DDD63AC0003CCF7;
+			productRefGroup = 7913D6071DDD63AC0003CCF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7913D6051DDD63AC0003CCF7 /* ReactiveCocoa-UIAlertView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7913D6041DDD63AC0003CCF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7913D6191DDD63AC0003CCF7 /* LaunchScreen.storyboard in Resources */,
+				7913D6161DDD63AC0003CCF7 /* Assets.xcassets in Resources */,
+				7913D6141DDD63AC0003CCF7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		244C5CFC45730E7B290E251E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveCocoa-UIAlertView/Pods-ReactiveCocoa-UIAlertView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C6466DD7A4462163B558D53 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveCocoa-UIAlertView/Pods-ReactiveCocoa-UIAlertView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A09E0F4C411E5D3E35AEA7B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7913D6021DDD63AC0003CCF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7913D6111DDD63AC0003CCF7 /* ViewController.m in Sources */,
+				7913D60E1DDD63AC0003CCF7 /* AppDelegate.m in Sources */,
+				7913D6231DDD73D70003CCF7 /* UIAlertView+SignalCallback.m in Sources */,
+				7913D60B1DDD63AC0003CCF7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7913D6121DDD63AC0003CCF7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7913D6131DDD63AC0003CCF7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7913D6171DDD63AC0003CCF7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7913D6181DDD63AC0003CCF7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7913D61B1DDD63AC0003CCF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7913D61C1DDD63AC0003CCF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7913D61E1DDD63AC0003CCF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA660E74B36928C53D2B6E89 /* Pods-ReactiveCocoa-UIAlertView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2X622PBE76;
+				INFOPLIST_FILE = "ReactiveCocoa-UIAlertView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liuxiaozhuang.ReactiveCocoa-UIAlertView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7913D61F1DDD63AC0003CCF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 368761741BFD5A36AD55EB7E /* Pods-ReactiveCocoa-UIAlertView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2X622PBE76;
+				INFOPLIST_FILE = "ReactiveCocoa-UIAlertView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.liuxiaozhuang.ReactiveCocoa-UIAlertView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7913D6011DDD63AC0003CCF7 /* Build configuration list for PBXProject "ReactiveCocoa-UIAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7913D61B1DDD63AC0003CCF7 /* Debug */,
+				7913D61C1DDD63AC0003CCF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7913D61D1DDD63AC0003CCF7 /* Build configuration list for PBXNativeTarget "ReactiveCocoa-UIAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7913D61E1DDD63AC0003CCF7 /* Debug */,
+				7913D61F1DDD63AC0003CCF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7913D5FE1DDD63AC0003CCF7 /* Project object */;
+}
